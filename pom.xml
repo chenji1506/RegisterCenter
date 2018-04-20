@@ -6,7 +6,7 @@
 
 	<groupId>com.stock</groupId>
 	<artifactId>service-register</artifactId>
-	<version>1.0.0-RELEASE</version>
+	<version>1.0.0.RELEASE</version>
 	<packaging>jar</packaging>
 
 	<parent>
@@ -68,6 +68,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>${project.artifactId}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
